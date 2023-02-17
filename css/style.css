@@ -1,0 +1,150 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* common css end */
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+}
+/* *nav starts here */
+nav{
+    background-color: #000000;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;   
+}
+nav ul li a{
+    color: #fd2626;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px 35px;
+    text-transform: capitalize;
+}
+/* *SUB MENU STARTS HERE */
+
+nav .submenu2{
+    position: absolute;
+    background-color: #000000;
+    width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+nav .submenu2 li{
+    display: block;
+}
+nav ul li:hover > .submenu2{
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+}
+nav .submenu2 .submenu2{
+    left: 100%;
+    top: 0;
+}
+
+nav .submenu3{
+    position: absolute;
+    background-color: #000000;
+    width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+nav .submenu3 li{
+    display: block;
+}
+nav ul li:hover > .submenu3{
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+}
+nav .submenu3 .submenu3{
+    left: 100%;
+    top: 0;
+}
+
+nav .submenu4{
+    position: absolute;
+    background-color: #000000;
+    width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+nav .submenu4 li{
+    display: block;
+}
+nav ul li:hover > .submenu4{
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+}
+nav .submenu4 .submenu4{
+    left: 100%;
+    top: 0;
+}
+
+nav .submenu5{
+    position: absolute;
+    background-color: #000000;
+    width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+nav .submenu5 li{
+    display: block;
+}
+nav ul li:hover > .submenu5{
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+}
+nav .submenu5 .submenu5{
+    left: 100%;
+    top: 0;
+}
+/* *nav ends here */
+
+
+
+
+.heading1 {
+    display: inline-block;
+    color: rgb(255, 230, 0);
+    font-size: 40px;
+    margin: 0 0 0 400px;
+    width: 100%;
+}
+.heading2 {
+    display: inline-block;
+    color: rgb(1, 255, 242);
+    font-size: 20px;
+    margin: 0 0 0 600px;
+    width: 100%;
+}
+.img {
+    text-align: center;
+}
